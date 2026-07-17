@@ -1,0 +1,46 @@
+# ==========================================
+# Python / Django
+# ==========================================
+
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Log files
+*.log
+
+# ==========================================
+# React / Vite
+# ==========================================
+
+frontend/node_modules/
+frontend/dist/
+
+# ==========================================
+# IDE
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+# Operating System
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+SETUP.txt
