@@ -109,7 +109,7 @@ export default function Dashboard() {
                       {b.payment?.status || "—"}
                     </td>
                     <td style={{ fontSize: "0.9rem" }}>
-                      {b.payment?.amount != null ? `$${Number(b.payment.amount).toFixed(2)}` : "—"}
+                      {b.payment?.amount != null ? `Rs. ${Number(b.payment.amount).toFixed(2)}` : "—"}
                     </td>
                     <td className="muted" style={{ fontSize: "0.9rem", textTransform: "capitalize" }}>
                       {b.payment?.method?.replace("_", " ") || "—"}

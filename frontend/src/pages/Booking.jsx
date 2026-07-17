@@ -128,7 +128,7 @@ export default function Booking() {
           >
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.35rem" }}>
               <span className="muted">Total due</span>
-              <strong>${total.toFixed(2)}</strong>
+              <strong>Rs. {total.toFixed(2)}</strong>
             </div>
             <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.9rem" }} className="muted">
               <span>Method</span>
